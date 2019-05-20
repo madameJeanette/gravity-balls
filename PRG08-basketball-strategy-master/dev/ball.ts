@@ -1,15 +1,15 @@
 abstract class Ball extends HTMLElement{
 
-    protected readonly gravity    : number = 0.1
-    protected readonly friction   : number = 0.9
+    public readonly gravity    : number = 0.1
+    public readonly friction   : number = 0.9
 
-    protected x           : number = 0
-    protected y           : number = 0
-    protected speedX      : number = 5
-    protected speedY      : number = -3
-    protected minWidth    : number = 0
-    protected maxWidth    : number = 0
-    protected maxHeight   : number = 0
+    public x           : number = 0
+    public y           : number = 0
+    public speedX      : number = 5
+    public speedY      : number = -3
+    public minWidth    : number = 0
+    public maxWidth    : number = 0
+    public maxHeight   : number = 0
 
     
     public get X() : number { return this.x }
